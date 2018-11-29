@@ -40,5 +40,6 @@
     <!-- declare the service interface to be exported -->
     <dubbo:service interface="com.skeaven.api.DemoService" ref="demoService" protocol="dubbo"/>
     <dubbo:service interface="com.skeaven.api.UserService" ref="userService" protocol="dubbo,rest"/>
+    
 
 </beans>
